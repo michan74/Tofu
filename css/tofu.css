@@ -1,0 +1,148 @@
+body{
+    margin:0;
+    background:url("../images/take.jpeg");
+}
+/*メインコンテンツ*/
+main{
+    position: relative;
+    max-width: 600px;
+    height:100vh;
+    margin:70px auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /*縦並びにする*/
+    background:url("../images/paper.jpg");
+    box-shadow: 0 0 8px gray;
+}
+/*動く豆腐*/
+.tofu_field{
+    position:relative;
+    width: 500px;
+    height:400px;
+    overflow: hidden;
+}
+.tofu_set{
+    position:absolute;
+    width:170px;
+    height:170px;
+    top:50px;
+    left:0px;
+}
+#tofu_image{
+    position:relative;
+    widows: 100%;
+    height:100%;
+}
+#tofu_anime{
+    position:absolute;
+    width:150px;
+    height:100px;
+    top:100px;
+    left:-200px;
+}
+/*動くじゃんけんのて*/
+.tofu_hand{
+    position:absolute;
+    width: 60px;
+    height:60px;
+    top:70px;
+    left:-200px;
+}
+/*じゃんけんの勝敗*/
+#result{
+    position: absolute;
+    margin:0 auto;
+    width:500px;
+    font-size: 30px;
+    font-weight:bold;
+    /*left:180px;*/
+    top:290px;
+    z-index: 5;
+    text-align:center;
+}
+
+/*じゃんけんのて*/
+.hand{
+    width:100px;
+    height:100px;
+}
+.big_hand{
+    width:130px;
+    height:130px;
+}
+/*タイトル*/
+.title{
+    display:flex; /*子要素を横並びにする*//*ブロックになる*/
+    justify-content: center; /*縦を中央寄席*/   
+    align-items: center;  /*横を中央寄席*/
+}
+
+/*点数*/
+#score{
+    color:#e95464;
+    margin-left:30px;
+    font-size:30px;
+}
+/*開始と終了時のメッセージ（掲示板）*/
+.bord{
+    position:absolute;
+    background: url(../images/paper_black.jpeg);
+    top:30%;
+    margin:0 auto;
+    color:cornsilk;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 0 0 8px gray;
+    opacity: 0.9;
+    z-index: 5;
+}
+/*いただきますメッセージ*/
+#call{
+    position:absolute;
+    top:40%;
+    margin:0 auto;
+    font-size: 40px;
+    color: #e95464;
+    z-index:7;
+}
+/*開始メッセージ*/
+.start{
+    width:300px;
+    height:200px;
+}
+/*終了メッセージ*/
+.finish{
+    width: 300px;
+    height:200px;
+    display:none;
+}
+.finish h4{
+    padding-top: 10px;
+}
+#message{
+    padding-bottom: 10px;
+}
+.display{
+    display:block;
+}
+.nonDisplay{
+    display:none;
+}
+/*ボタン*/
+.button{
+    background-color: #38b48b;
+    border-radius: 5px;
+    color:cornsilk;
+    box-shadow: 0 0 8px gray;
+}
+.button:hover{
+    opacity: 0.8;
+}
+/*再スタートボタン*/
+#restart{
+    margin:30px;
+    margin-bottom: 20px;
+}
+
+

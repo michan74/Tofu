@@ -1,16 +1,20 @@
-# Tofu
-豆腐
+# Tofu　　とうふ
 
-- 期間
-　- ２０２１.1.9 ~ 2021.1.10  ２０時間ほど
+## 期間
+　2021.1.9 ~ 2021.1.10  20時間ほど
  
-- 経緯
-　- G's ACADEMY CAMP SAPPORO(https://gsacademy.jp/camp/sapporo/)　2021.1.9 ~ 2021.1.10開催に参加し、
- 　JavaScript
+## 経緯
+　G's ACADEMY CAMP SAPPORO( https://gsacademy.jp/camp/sapporo/ )　2021.1.9 ~ 2021.1.10開催に参加し、作成しました。  
+　課題：ジャンケンに関するゲームを作成する
   
-- 使用言語
-　-HTML
-  -JavaScript
-  -CSS
+## 使用言語
+  * HTML
+  * JavaScript
+  * CSS
   
- - 目的
+## 目的
+　とうふは美味しい食べ物です。とうふ×ジャンケンで美味しくて楽しい時間を提供します。
+
+## 使い方
+　流れてくるとうふをじゃんけんに勝って獲得しよう！！！
+　
